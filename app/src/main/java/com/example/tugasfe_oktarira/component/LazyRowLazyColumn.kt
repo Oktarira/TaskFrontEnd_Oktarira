@@ -274,7 +274,7 @@ fun LazyRowLazyColumn(navController: NavController) {
             }
         }
         ///LAZY COLUMN
-        Text(text = "Rekomendasi Khusus Untuk Mu!", fontSize = 20.sp, fontWeight = FontWeight.Bold, modifier = Modifier
+        Text(text = "Rekomendasi Khusus!", fontSize = 20.sp, fontWeight = FontWeight.Bold, modifier = Modifier
             .fillMaxWidth()
             .padding(start = 16.dp))
         LazyColumn(
